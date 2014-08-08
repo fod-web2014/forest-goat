@@ -1,0 +1,333 @@
+/* Reset
+------------------------------------------------------------ */
+* { margin: 0; padding: 0; }
+html { overflow-y: scroll;}
+body { background:#ffffff; font-size: 13px; color: #666666; font-family: Arial, helvetica, sans-serif;}
+ol, ul { list-style: none; margin: 0;}
+ul li { margin: 0; padding: 0;}
+h1 { margin-bottom: 10px; color: #111111; font-family: 'Lato', sans-serif;}
+h2 { margin: 1% 0; font-family: 'Lato', sans-serif; }  
+a, img { outline: none; border:none; text-decoration: none; color: #000;}
+a:hover {opacity: 0.7; transition: 1s;}
+p { margin: 0 0 10px; line-height: 1.4em; font-size: 1.2em;}
+img { display: block; margin-bottom: 10px;}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section { 
+    display: block;
+    }
+    
+/* Structure */
+.scrollToTop{
+    width: 16px;
+    height: 16px;
+    padding:10px; 
+    text-align:center; 
+    background: #000;
+    color: #444;
+    position:fixed;
+    bottom: 3%;
+    right:3%;
+    display:none;
+
+}
+.scrollToTop:hover{
+    text-decoration:none;
+}
+#wrapper {
+    width: 96%; 
+    max-width: 1170px;
+    margin: auto;
+    padding: 0.5% 2% 0.2% 2%;
+    }
+
+    #top-header p {
+        font-family: 'Noticia Text', serif;
+        font-size: 12px;
+        text-align: left;
+        float:left;
+        }
+
+    #cart {
+        float: right;
+        display: inline
+        }
+
+    #cart p {
+    background: url(../img/cart.png) no-repeat 3px;
+    padding-left: 25px;
+        }
+
+    /* Logo H1 */
+
+    header {
+        border-bottom: 1px solid #e6e6e6;
+        border-top: 1px solid #e6e6e6;
+        padding: 1em 0;
+        }
+    header h1 {
+        height: 45px;
+        width: 250px;
+        float: left;
+        display: block;
+        background: url(../img/logo.jpg) 0 0 no-repeat;
+        text-indent: -9999px;
+        }
+
+        .body-heading {
+            text-transform: uppercase;
+            border-bottom: 1px solid #e6e6e6;
+            font-size: 1.3em;
+            padding: 2% 0;
+            
+        }
+
+    header nav {
+        float: right;
+        margin-top: 20px; 
+        }
+    
+    header nav li {
+        font-family: 'Lato', sans-serif;
+        font-size: 0.9em;
+        font-weight: normal;
+        display: inline;
+        margin-left: 15px;
+        color: #868686;
+        }
+
+    header nav li a {
+        color: #747474;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    header nav li a:hover {
+        opacity: 0.7;
+        -webkit-transition: 1s;
+        transition: 1s;
+    }
+
+    /* Home Body */
+
+main {
+    padding: 15px 0;
+    }
+
+    #banner {
+        margin-bottom: 30px 0;
+        width: 100%;
+        }
+
+    #banner img {
+        width: 100%;
+        }
+
+    #main {
+        font-family: 'Noticia Text', serif;
+        width: 60%;
+        margin-right: 5%;
+        float: left;
+
+        
+        } 
+    #main p {
+        padding-top: 1em;
+        font-size: 1em;
+    }     
+
+    .blogpost {
+
+        border-bottom: 1px solid #e6e6e6;
+    } 
+
+    .blogpost img {
+        width: 100%;
+        padding-top: 2%;
+    }
+
+    .readmore {
+        background: #000;
+        color: white;
+        text-transform: uppercase;
+        padding: 5px;
+        display: inline-block;
+        margin: 3% 0;
+    }
+        
+    aside {
+        font-family: 'Noticia Text', serif;
+        width: 35%;
+        float: right;
+        margin-top: 1%
+        
+        }
+
+input[type="email"] {
+    outline: 0;
+    border: 1px solid #e6e6e6;
+    padding: 9px 20px;
+}
+input[type="submit"] {
+    background: #000;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    opacity: 0.7;
+    transition: 1s;
+}
+
+
+
+.products {
+    border-bottom: 1px solid #e6e6e6;
+    padding: 2% 0;
+    }
+
+    .product {
+        float: left;
+        margin: 0 1.8%;
+        border-bottom: 1px solid #e6e6e6;
+        padding-bottom: 1%;
+    }
+
+    .product img {
+        width: 100%;
+    }
+
+#calltoaction img {
+    width: 100%;
+    height: auto;
+    margin: 2% 0;
+}
+
+/* Footer */
+
+footer {
+        width: 100%;
+        padding-top: 2%;
+        border-top: 1px solid #e6e6e6;
+    }
+
+    footer p {
+        font-family: 'Roboto', sans-serif;
+        float: left;
+        font-size: 1em;
+    }
+
+    footer nav   {
+        float: right;
+    }
+
+    footer nav li {
+        display: inline-block;
+        margin-right: 0.5em;
+    }
+
+    
+    .clear {
+        clear: both;
+    }
+
+    .responsive {
+
+        padding: 3% 0;
+        border-bottom: 1px solid #e6e6e6;
+    }
+
+    .addtocartbutton {
+        background: #000;
+        color: white;
+        padding: 5px 10px;
+        font-size: 12px;
+        font-family: 'Noticia Text', serif;
+    }
+    .item_name {
+        font-family: 'Noticia Text', serif;
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+        padding: 2% 0;
+        margin-bottom: 2%;
+    }
+
+/* Media Queries */
+
+@media screen and (max-width: 480px) {
+
+    header h1 {
+        position: relative;
+        margin-left: 20%;
+        
+    }
+    h1,h2 {
+        text-align: center;
+        margin: 5% 0;
+    }
+
+    header nav, #main, aside {
+        float: left;
+        clear: left;
+        margin: 0 0 10px; 
+        width: 100%;
+        text-align: center;
+        }   
+        header nav li {
+            margin: 0;
+            background: #efefef;
+            display: block;
+            margin-bottom: 3px;
+            }
+            header nav a {
+                display: block;
+                padding: 10px;
+                text-align: center;
+                } 
+    footer p {
+        display: block;
+        width: 100%;
+        text-align: center;
+        }   
+
+    footer nav {
+        display: block;
+        width: 100%;
+        text-align: center;
+        }
+
+        #top-header > p {
+            display: block;
+            width: 100%; 
+            text-align: center;
+            padding: 1% 0;   
+        }
+
+        #cart {
+            float: none;
+        }
+
+        #cart p {
+            display: block;
+            width: 100%;
+            text-align: center;
+            padding-left: 0px;
+            background: url(../img/cart.png) no-repeat 22%;
+        }
+        aside input[type="email"]{
+            display: inline;
+        }
+        aside input[type="submit"]{
+            display: inline;
+        }
+        .products {
+            padding-right: 3%;
+        }
+        .product {
+            display: block;
+            width: 100%;
+        }
+    }
